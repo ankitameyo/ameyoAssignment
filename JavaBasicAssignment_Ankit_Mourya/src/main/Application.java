@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import solution.Solutions;
-import solution.SolutionsImpl;
+import solutionImpl.SolutionsImpl;
 
 public class Application {
 	

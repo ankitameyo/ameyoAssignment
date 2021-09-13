@@ -1,4 +1,4 @@
-package solution;
+package solutionImpl;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -8,6 +8,8 @@ import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
+
+import solution.Solutions;
 
 /**
  * SolutionsImpl class contains methods for all the answers of assignmen't questions
@@ -162,6 +164,7 @@ public class SolutionsImpl implements Solutions {
 				logger1.info(String.valueOf(fibbRecursive(x)));
 			}
 			fileHandler.close();
+			return;
 		}
 		catch(Exception e) {
 			logger1.info("Exception occured in fibonacci sequence generator");
