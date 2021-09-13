@@ -8,7 +8,9 @@ import solution.SolutionsImpl;
 
 public class Application {
 	
-
+	/**
+	 * Interactive program for the java assessment
+	 */
 	public static void main(String args[]) throws SecurityException, IOException {
 		Scanner sc=new Scanner(System.in);
 		Solutions sol=new SolutionsImpl();
